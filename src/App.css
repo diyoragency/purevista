@@ -1,0 +1,27 @@
+/* Custom styles for the app */
+.gradient-bg {
+  background: linear-gradient(135deg, #e8e5ff 0%, #f0edff 50%, #e8e5ff 100%);
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.smooth-transition {
+  transition: all 0.3s ease;
+}
+
+.active-tab {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+}
